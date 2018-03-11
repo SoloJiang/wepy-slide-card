@@ -1,0 +1,5 @@
+node_modules/
+src/
+README.md
+wepy.config.js
+.gitignore

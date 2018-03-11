@@ -1,0 +1,26 @@
+{
+  "name": "wepy-slide-card",
+  "version": "1.0.0",
+  "description": "A slide-card component for wepy",
+  "main": "SlideCard.wpy",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SoloJiang/wepy-slide-card.git"
+  },
+  "keywords": ["wepy"],
+  "author": "SoloJiang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SoloJiang/wepy-slide-card/issues"
+  },
+  "homepage": "https://github.com/SoloJiang/wepy-slide-card#readme",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-1": "^6.16.0"
+  }
+}

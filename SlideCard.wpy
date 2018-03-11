@@ -39,9 +39,6 @@ export default class extends wepy.component {
       }
     }
   }
-  onLoad() {
-    console.log(this)
-  }
 }
 </script>
 
@@ -51,11 +48,7 @@ export default class extends wepy.component {
   width: 100%;
   height: 200rpx;
 }
-.weconstant-side {
-  background: #222;
-}
 .weslide-side {
-  background: #ddd;
   transition: all 0.5s;
 }
 </style>

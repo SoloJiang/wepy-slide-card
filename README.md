@@ -18,9 +18,15 @@ npm install wepy-slide-card --save
 
 #### 引入组件
 
-```javascript
+```html
 <template>
-  <SlideCard :constantFlex="a" :slideFlex="b"></SlideCard>
+  <SlideCard :constantFlex="a" :slideFlex="b">
+    <view slot="constant-content">
+      <view>Left0</view>
+      <view>Left1</view>
+    </view>
+    <view slot="slide-content">Slide</view>
+  </SlideCard>
 </template>
 
 <script>
@@ -41,4 +47,4 @@ export default class Index extends wepy.page {
 
 #### 使用方法
 
-需要分别传入``constantFlex`` ``slideFlex``给滑块分别作为左侧固定滑块和右侧显隐滑块的宽度，两者是比例关系（flex），
+需要分别传入``constantFlex`` ``slideFlex``给滑块分别作为左侧固定滑块和右侧显隐滑块的宽度，两者是比例关系（flex），两侧的内容采用slot的方式设计，具体使用参照上面。
